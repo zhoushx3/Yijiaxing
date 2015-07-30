@@ -4,7 +4,6 @@ use Think\Controller;
 class IndexController extends Controller {
 	//首页
   public function index(){
-  	layout(false);
   	$this->display();
   }
   //从心出发
