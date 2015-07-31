@@ -1,1 +1,287 @@
-.exHead{width:100%;height:auto;padding:12px 0;box-shadow:0 4px 4px #e9e9e9;background-color:#f6f6f6;position:fixed;z-index:10}.contents{margin:0 auto;width:960px;position:relative}#img_text{position:relative}#img_text > p{font-size:14px;position:absolute;top:137px;left:46px}#img_text > p a,#img_text > p span{font-family:"SimSun"}#img_text img{width:100%}.text1 p,.text2 p{text-indent:40px}.text1 p{color:#A0A0A0;font-size:16px;font-family:"STFangsong";line-height:32px;letter-spacing:2px}.text2 p{font-size:14px;color:#828282;line-height:32px;padding-top:20px}.text2_1{width:500px}.imgDiv img{width:100%;height:100%}.imgDiv:first-child{width:355px;height:265px;padding:5px;border:1px solid #aaa;box-shadow:4px 4px 4px #d4d4d4;background:#fff;position:absolute;top:1123px;right:0;z-index:3}.imgDiv:first-child + div{width:350px;height:260px;padding:5px;border:1px solid #aaa;box-shadow:4px 4px 4px #d4d4d4;background:#fff;position:absolute;top:1385px;right:50px;z-index:2;transform:rotate(-9deg);-ms-transform:rotate(-9deg);-moz-transform:rotate(-9deg);-webkit-transform:rotate(-9deg);-o-transform:rotate(-9deg)}.imgDiv:first-child + div + div{width:250px;height:360px;padding:5px;border:1px solid #aaa;box-shadow:4px 4px 4px #d4d4d4;background:#fff;position:absolute;top:1637px;right:0;transform:rotate(5deg);-ms-transform:rotate(5deg);-moz-transform:rotate(5deg);-webkit-transform:rotate(5deg);-o-transform:rotate(5deg)}#record2_4{width:873px;margin:20px auto;display:block}#prevR,#prevL{font-size:14px;line-height:40px;border:1px solid #ecebeb;box-shadow:3px 3px 3px #CBCBCB;text-align:center;width:270px;height:40px;margin-bottom:40px}#prevR a,#prevL a{color:#E5A671}#prevR{float:left}#prevL{float:right}.clear{clear:both}
+*{
+	margin:0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.exHead{
+	width: 100%;
+	height: auto;	
+	padding: 12px 0;
+	box-shadow:0 4px 4px #e9e9e9;
+	background-color: #f6f6f6;
+	position: fixed;
+	z-index: 10;
+}
+
+.header{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header img:first-child {
+	width: 84px;
+	height: 100px;
+}
+
+.header img:first-child + img {
+	padding-left: 20px;
+	width: 328px;
+	height: 47px;
+}
+
+#nav{
+	width: 426px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+#nav a{
+	margin-right: 40px;
+	float: left;
+	color: #888686;
+	font-size: 14px;
+}
+
+#nav a.active {
+	color: #399ce1;
+}
+
+.contents {
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+}
+
+#img_text {
+	position: relative;
+}
+
+#img_text > p   {
+	font-size: 14px;
+	position: absolute;
+	top: 137px;
+	left: 46px;
+}
+
+#img_text > p a, #img_text > p span {
+	font-family: "SimSun";
+}
+
+#img_text img {
+	width: 100%;
+}
+
+.text1 p, .text2 p {
+	text-indent: 40px;
+}
+
+.text1 p {
+	color: #A0A0A0;
+	font-size: 16px;
+	font-family: "STFangsong";
+	line-height: 32px;
+	letter-spacing: 2px;
+}
+
+.text2 p {
+	font-size: 14px;
+	color: #828282;
+	line-height: 32px;
+	padding-top: 20px;
+}
+
+.text2_1 {
+	width: 500px;
+}
+
+.imgDiv img {
+	width: 100%;
+	height: 100%;
+}
+
+.imgDiv:first-child {
+	width: 355px;
+	height: 265px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	box-shadow: 4px 4px 4px #d4d4d4;
+	background: #fff;
+	position: absolute;
+	top: 1123px;
+	right: 0;
+	z-index: 3;
+}
+
+.imgDiv:first-child + div {
+	width: 350px;
+	height: 260px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	box-shadow: 4px 4px 4px #d4d4d4;
+	background: #fff;
+	position: absolute;
+	top: 1385px;
+	right: 50px;	
+	z-index: 2;
+	transform:rotate(-9deg);
+	-ms-transform:rotate(-9deg); 	/* IE 9 */
+	-moz-transform:rotate(-9deg); 	/* Firefox */
+	-webkit-transform: rotate(-9deg); /* Safari å’Œ Chrome */
+	-o-transform:rotate(-9deg); 	/* Opera */
+}
+
+.imgDiv:first-child + div + div {
+	width: 250px;
+	height: 360px;
+	padding: 5px;
+	border: 1px solid #aaa;
+	box-shadow: 4px 4px 4px #d4d4d4;
+	background: #fff;
+	position: absolute;
+	top: 1637px;
+	right: 0;	
+	transform:rotate(5deg);
+	-ms-transform:rotate(5deg); 	/* IE 9 */
+	-moz-transform:rotate(5deg); 	/* Firefox */
+	-webkit-transform: rotate(5deg); /* Safari å’Œ Chrome */
+	-o-transform:rotate(5deg); 	/* Opera */
+}
+
+#record2_4 {
+	width: 873px;
+	margin: 20px auto;
+	display: block;
+}
+
+#prevR, #prevL {
+	font-size: 14px;
+	line-height: 40px;
+	border: 1px solid #ecebeb;
+	box-shadow: 3px 3px 3px #CBCBCB;
+	text-align: center;
+	width: 270px;
+	height: 40px;
+	margin-bottom: 40px;
+}
+#prevR a, #prevL a {
+	color: #E5A671;
+}
+
+
+#prevR {
+	float: left;
+}
+
+#prevL {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+
+
+/*尾部*/
+#bottom {
+	margin: 0 auto;
+	background: #399ce1;
+}
+
+#bottom > div#bottom_up {
+	width: 960px;
+	height: auto;
+	padding: 15px 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+#bottom_up > div {
+	height: auto;
+	padding-left: 16%;
+}
+
+#bottom_up a {
+	color: #bce1fa;
+}
+
+#bottom_up > div > div {
+	font-size: 0;
+	display: inline-block;
+	width: 381px;
+	height: 147px;
+	vertical-align: top;
+}
+
+#bottom_up > div > div p {
+	color: #bce1fa;
+	font-size: 11px;
+	line-height: 43px;
+}
+
+#bottom_up > div > div p:first-child {
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+#bottom > #bottom_down {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #979696;
+	background: #504f4f;
+	text-decoration: none;
+}
+
+#bottom_phone, #bottom_email, #bottom_address {
+	padding-left: 45px;
+}
+
+#bottom_phone {
+	background: url(../img/bottom_phone.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_email {
+	background: url(../img/bottom_email.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_address {
+	background: url(../img/bottom_address.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_up #opactity {
+	height: 182px;
+	position: absolute;
+	top: 22px;
+	left: 0;
+	background: url(../img/two_imension_code.png) no-repeat;
+	background-size: 143px;
+	opacity: 0.85;
+	z-index: 20;
+}
