@@ -1,5 +1,24 @@
-* {
-	margin: 0;
-	padding: 0;
-	border:0;
-}
+@-o-keyframes arrow{from {height: 6%} to {height: 8%}}
+@-moz-keyframes arrow{from {height: 6%} to {height: 8%}}
+@-webkit-keyframes arrow{from {height: 6%} to {height: 8%}}
+/*首页第一屏*/
+#page1 {padding-top: 33%; position: relative; background-color: #399ce1}
+#page1 img {display: block; margin: 0 auto; width: 64%}
+#nextPage {width: 4%; height: 6%; position: absolute; bottom: 0; left: 48%; animation: arrow 1s infinite linear}
+.page {width: 100%; height: 100%}
+.ui-icon {background-image: url('images/ui-icons_ffffff_256x240.png'); background-size: 512px 480px}
+.ui-icon-arrowthickstop-1-n {background-position: -392px -100px}
+/*首页第二屏*/
+#page2 {position: relative;}
+.inner {box-sizing: border-box; margin: 3% 4% 0 4%;}
+.inner h3 {width: 100%; text-align: center}
+.inner p {text-indent: 10px; margin: 0 0 8px 0; font-size: 13px;}
+.logo {position: absolute; bottom: 10px; right: 10px; width: 40px;}
+.am-slider-default .am-direction-nav a {top: 62%;}
+
+
+
+
+
+
+
