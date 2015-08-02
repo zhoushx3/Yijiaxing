@@ -158,4 +158,8 @@ $(function(){
 	$('#nextPage').on('click', function(){
 		$('#page1').slideUp(500,'swing');
 	});
+	// 常见问题,面板伸缩时修改
+	$('.am-panel h4').on('click', function(){
+		$(this).toggleClass('up');
+	});
 });
