@@ -1,6 +1,10 @@
 html,body {height: auto; overflow: auto}
+.container {min-height: 100%}
 .am-panel h4:before {content: '\f0d7'}
 .am-panel h4.up:before {content: '\f0d8'}
-.am-panel-bd {padding-top: 0rem}
-.am-panel-bd p {font-size: 1.3rem; margin: 0rem}
-.am-panel-bd p.hint {font-size: 1.5rem; color: rgb(227, 164, 110); margin-bottom: 1rem; margin-top: 1rem;}
+.am-panel-bd p {font-size: 1.3rem; margin: 0 0 0.3rem 0}
+.am-panel-bd p.hint {font-size: 1.5rem; color: rgb(227, 164, 110); margin-bottom: 1rem; margin-top: 0}
+.am-panel-default:not(:first-child) p:not(.hint) {counter-increment: count}
+.am-panel-default:not(:first-child) p:not(.hint):before {content: counter(count, upper-roman) ' . '; color: rgb(227, 164, 110)}
+.toTop {display: none}
+.toTop:after {content: '\f0aa'; font-size: 27px; position: fixed; bottom: 0; right: 10px}
