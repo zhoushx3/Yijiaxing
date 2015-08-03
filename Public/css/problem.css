@@ -6,5 +6,5 @@ html,body {height: auto; overflow: auto}
 .am-panel-bd p.hint {font-size: 1.5rem; color: rgb(227, 164, 110); margin-bottom: 1rem; margin-top: 0}
 .am-panel-default:not(:first-child) p:not(.hint) {counter-increment: count}
 .am-panel-default:not(:first-child) p:not(.hint):before {content: counter(count, upper-roman) ' . '; color: rgb(227, 164, 110)}
-.toTop {display: none}
+.toTop {display: none; cursor: pointer}
 .toTop:after {content: '\f0aa'; font-size: 27px; position: fixed; bottom: 0; right: 10px}

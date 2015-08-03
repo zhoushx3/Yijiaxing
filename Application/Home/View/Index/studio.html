@@ -1,27 +1,157 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="益家行,公益,益家行公益,yijiaxing,public welfare,org">
-	<title>维艾工作室</title>
-	<link rel="stylesheet" type="text/css" href="css/studio.css">
-	<script src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/studio.js"></script>
-</head>
-<body>
-	<div class="header">
+	<import type="css" file="css.studio" />
+
+	<!-- // <script type="text/javascript" src="js/studio.js"></script> -->
+
+	<include file="Common/header" />
+
+	<figure data-am-widget="figure" class="am am-figure am-figure-default">
+	  <img src="__PUBLIC__/images/studio.png" alt="中山大学维艾工作室" />
+	  <img src="__PUBLIC__/images/studio_text.png" alt="中山大学维艾工作室" />
+	</figure>
+
+
+	<ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-gallery-imgbordered" data-am-gallery="{ pureview: true}">
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_shaoke.png" alt="Shaoke 讲师" />
+        <h3 class="am-gallery-title">中山大学媒体创意系</h3>
+        <div class="am-gallery-desc">Shaoke 讲师</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_shaoxiong.png" alt="周少雄 程序开发" />
+        <h3 class="am-gallery-title">中山大学软件工程<br />2012级</h3>
+        <div class="am-gallery-desc">周少雄 程序开发</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_qiaoyun.png" alt="徐俏云 用户研究/交互设计" />
+        <h3 class="am-gallery-title">中山大学媒体创意系<br />2011级</h3>
+        <div class="am-gallery-desc">徐俏云 用户研究/交互设计</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_jiaxin.png" alt="文嘉欣 用户研究/交互设计" />
+        <h3 class="am-gallery-title">中山大学媒体创意系<br />2012级</h3>
+        <div class="am-gallery-desc">文嘉欣 用户研究/交互设计</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_lixiang.png" alt="" />
+        <h3 class="am-gallery-title">中山大学媒体创意系<br />2011级</h3>
+        <div class="am-gallery-desc">李想 视觉设计</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_jiehui.png" alt="吴洁慧 视觉设计" />
+        <h3 class="am-gallery-title">中山大学媒体创意系 <br />2011级</h3>
+        <div class="am-gallery-desc">吴洁慧 视觉设计</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_xiaohang.png" alt="苏晓航 程序开发" />
+        <h3 class="am-gallery-title">中山大学软件工程<br />2012级</h3>
+        <div class="am-gallery-desc">苏晓航 程序开发</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_laiyuan.png" alt="赖渊 程序开发" />
+        <h3 class="am-gallery-title">中山大学软件工程<br />2013级</h3>
+        <div class="am-gallery-desc">赖渊 程序开发</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_wushuang.png" alt="邢吴双 视觉设计" />
+        <h3 class="am-gallery-title">中山大学媒体创意系<br />2011级</h3>
+        <div class="am-gallery-desc">邢吴双 视觉设计</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_meixuan.png" alt="王美璇 平面设计/UI" />
+        <h3 class="am-gallery-title">中山大学媒体创意系<br />2012级</h3>
+        <div class="am-gallery-desc">王美璇 平面设计/UI</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade'}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_jiaping.png" alt="边家平 程序开发" />
+        <h3 class="am-gallery-title">中山大学软件工程<br />2011级</h3>
+        <div class="am-gallery-desc">边家平 程序开发</div>
+	    </div>
+	  </li>
+	  <li data-am-scrollspy="{animation: 'fade', delay: 300}">
+	    <div class="am-gallery-item">
+        <img src="__PUBLIC__/images/studio_jiawei.png" alt="王嘉威 程序开发" />
+        <h3 class="am-gallery-title">中山大学软件工程<br />2012级</h3>
+        <div class="am-gallery-desc">王嘉威 程序开发</div>
+	    </div>
+	  </li>
+	</ul>
+
+	<h1 class="am-serif">特别鸣谢</h1>
+	<ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-gallery-default">
+	  <li>
+	    <div class="am-gallery-item">
+	      <a href="http://www.cydf.org.cn" class="">
+	        <img src="__PUBLIC__/images/studio_partner.png" alt="中国青少年发展基金会" />
+	      </a>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="am-gallery-item">
+	      <a href="http://scd.sysu.edu.cn" class="">
+	        <img src="__PUBLIC__/images/studio_logo.png" alt="中山大学与传播学院" />
+	      </a>
+	    </div>
+	  </li>
+	  <li style="margin-top: 60px">
+	    <div class="am-gallery-item">
+	      <a href="http://jlxd.cydf.org.cn" class="">
+	        <img src="__PUBLIC__/images/studio_pic.png" alt="希望工程激励行动--友邦青年领袖计划" />
+	      </a>
+	    </div>
+	  </li>
+	  <li>
+	    <div class="am-gallery-item">
+	      <a href="http://ss.sysu.edu.cn/InformationSystem/" class="">
+	        <img src="__PUBLIC__/images/studio_college.png" alt="中山大学软件学院" />
+	      </a>
+	    </div>
+	  </li>
+	</ul>
+
+	<div class="introductions">
+		<h1 class="am-serif">中山大学维艾工作室</h1>
+		<p>我们成立于2013年12月15日，为萌芽中的NGO提供免费或低成本的设计服务，致力于提升公益传播的影响力，同时，我们也成长于此</p>
+		<p>We－i，不仅仅是“VI”的同音，还有“我们”和“我”</p>
+		<p>——我们希望设计青年在这个团队中找到自己的位置，实现自己的价值</p>
+		<p>如果你是在校大学生，也关注公益、热爱设计，</p>
+		<p>加入我们，或者，尝试建立一个助人助己的公益协同设计工作室吧！</p>
+		<p>欢迎联系：shaoke.zhang@gmail.com</p>
+	</div>
+
+	<a href="javascript:void(0)" data-am-smooth-scroll class="toTop"></a>
+
+ 	<!--div class="header">
 		<p>中山大学维艾工作室 &ensp; | &ensp; 提升公益传播正能量</p>
 	</div>
 
 	<div id="studio_all">
-		<img src="img/studio.png" style="width: 214.5px; height: 300px" alt="" />
-		<img src="img/studio_text.png" style="width: 443px; height: 40px" alt="" />
+		<img src="__PUBLIC__/images/studio.png" style="width: 214.5px; height: 300px" alt="" />
+		<img src="__PUBLIC__/images/studio_text.png" style="width: 443px; height: 40px" alt="" />
 
 		<div id="studio_member">
 			<div id="studio_who">
-				<img src="img/studio_who.png" alt="" />
+				<img src="	" alt="" />
 				<div class="studio_transparent"><div style="background: #00aa90"></div></div>
 				<div class="studio_introduction studio_hide" style="background: #00aa90">
 					<div class="studio_introduction_text">
@@ -33,7 +163,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_shaoke">
-				<img src="img/studio_shaoke.png" alt="" />
+				<img src="__PUBLIC__/images/studio_shaoke.png" alt="" />
 				<div class="studio_transparent"><div style="background: #db933d"></div></div>
 				<div class="studio_introduction" style="background: #db933d">
 					<p class="studio_introduction_headline">Shaoke</p>
@@ -45,7 +175,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_lixiang">
-				<img src="img/studio_lixiang.png" alt="" />
+				<img src="__PUBLIC__/images/studio_lixiang.png" alt="" />
 				<div class="studio_transparent"><div style="background: #439e53"></div></div>
 				<div class="studio_introduction" style="background: #439e53">
 					<p class="studio_introduction_headline">李想</p>
@@ -58,7 +188,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_shaoxiong">
-				<img src="img/studio_shaoxiong.png" alt="" />
+				<img src="__PUBLIC__/images/studio_shaoxiong.png" alt="" />
 				<div class="studio_transparent"><div style="background: #008bba"></div></div>
 				<div class="studio_introduction" style="background: #008bba">
 					<p class="studio_introduction_headline">周少雄</p>
@@ -71,7 +201,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_qiaoyun">
-				<img src="img/studio_qiaoyun.png" alt="" />
+				<img src="__PUBLIC__/images/studio_qiaoyun.png" alt="" />
 				<div class="studio_transparent"><div style="background: #a5459c"></div></div>
 				<div class="studio_introduction" style="background: #a5459c">
 					<p class="studio_introduction_headline">徐俏云</p>
@@ -84,7 +214,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_jiehui">
-				<img src="img/studio_jiehui.png" alt="" />
+				<img src="__PUBLIC__/images/studio_jiehui.png" alt="" />
 				<div class="studio_transparent"><div style="background: #2170b4"></div></div>
 				<div class="studio_introduction" style="background: #2170b4">
 					<p class="studio_introduction_headline">吴洁慧</p>
@@ -97,20 +227,20 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_xiaohang">
-				<img src="img/studio_xiaohang.png" alt="" />
+				<img src="__PUBLIC__/images/studio_xiaohang.png" alt="" />
 				<div class="studio_transparent"><div style="background: #505f76"></div></div>
 				<div class="studio_introduction" style="background: #505f76">
 					<p class="studio_introduction_headline">苏晓航</p>
 					<div class="studio_introduction_text">
 						<p>中山大学软件工程</p>
-						<p>2013级</p>
+						<p>2012级</p>
 					</div>
 					<p class="studio_introduction_subhead">程序开发</p>
 				</div>
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_what">
-				<img src="img/studio_what.png" alt="" />
+				<img src="__PUBLIC__/images/studio_what.png" alt="" />
 				<div class="studio_transparent"><div style="background: #b9674c"></div></div>
 				<div class="studio_introduction studio_hide" style="background: #b9674c">
 					<div class="studio_introduction_text">
@@ -122,7 +252,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_jiaxin">
-				<img src="img/studio_jiaxin.png" alt="" />
+				<img src="__PUBLIC__/images/studio_jiaxin.png" alt="" />
 				<div class="studio_transparent"><div style="background: #b9674c"></div></div>
 				<div class="studio_introduction" style="background: #b9674c">
 					<p class="studio_introduction_headline">文嘉欣</p>
@@ -135,7 +265,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_how">
-				<img src="img/studio_how.png" alt="" />
+				<img src="__PUBLIC__/images/studio_how.png" alt="" />
 				<div class="studio_transparent"><div style="background: #939393"></div></div>
 				<div class="studio_introduction studio_hide" style="background: #939393">
 					<div class="studio_introduction_text">
@@ -150,7 +280,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_laiyuan">
-				<img src="img/studio_laiyuan.png" alt="" />
+				<img src="__PUBLIC__/images/studio_laiyuan.png" alt="" />
 				<div class="studio_transparent"><div style="background: #a0a131"></div></div>
 				<div class="studio_introduction" style="background: #a0a131">
 					<p class="studio_introduction_headline">赖渊</p>
@@ -163,7 +293,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_meixuan">
-				<img src="img/studio_meixuan.png" alt="" />
+				<img src="__PUBLIC__/images/studio_meixuan.png" alt="" />
 				<div class="studio_transparent"><div style="background: #2170b4"></div></div>
 				<div class="studio_introduction" style="background: #2170b4">
 					<p class="studio_introduction_headline">王美璇</p>
@@ -176,7 +306,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_wushuang">
-				<img src="img/studio_wushuang.png" alt="" />
+				<img src="__PUBLIC__/images/studio_wushuang.png" alt="" />
 				<div class="studio_transparent"><div style="background: #a5459c"></div></div>
 				<div class="studio_introduction" style="background: #a5459c">
 					<p class="studio_introduction_headline">邢吴双</p>
@@ -189,7 +319,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_work">
-				<img src="img/studio_work.png" alt="" />
+				<img src="__PUBLIC__/images/studio_work.png" alt="" />
 				<div class="studio_transparent"><div style="background: #e3cc29"></div></div>
 				<div class="studio_introduction studio_hide" style="background: #e3cc29">
 					<div class="studio_introduction_text">
@@ -202,7 +332,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_jiaping">
-				<img src="img/studio_jiaping.png" alt="" />
+				<img src="__PUBLIC__/images/studio_jiaping.png" alt="" />
 				<div class="studio_transparent"><div style="background: #e19d3c"></div></div>
 				<div class="studio_introduction" style="background: #e19d3c">
 					<p class="studio_introduction_headline">边家平</p>
@@ -215,7 +345,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_why">
-				<img src="img/studio_why.png" alt="" />
+				<img src="__PUBLIC__/images/studio_why.png" alt="" />
 				<div class="studio_transparent"><div style="background: #dc5058"></div></div>
 				<div class="studio_introduction studio_hide" style="background: #dc5058">
 					<div class="studio_introduction_text">
@@ -226,7 +356,7 @@
 				<p class="studio_introduction_close"> &lt; </p>
 			</div>
 			<div id="studio_jiawei">
-				<img src="img/studio_jiawei.png" alt="" />
+				<img src="__PUBLIC__/images/studio_jiawei.png" alt="" />
 				<div class="studio_transparent"><div style="background: #439e53"></div></div>
 				<div class="studio_introduction" style="background: #439e53">
 					<p class="studio_introduction_headline">王嘉威</p>
@@ -242,16 +372,16 @@
 		</div>
 
 		<div class="studio_contact">
-			<img src="img/studio_contact.png" alt="" />
+			<img src="__PUBLIC__/images/studio_contact.png" alt="" />
 			<p>pr@yijiaxing.org</p>
 		</div>
 
 		<p class="studio_thank">&ensp;特别鸣谢&ensp;</p>
 
-		<a href="http://www.cydf.org.cn"><img class="cooporation" src="img/studio_partner.png" alt=""></a>
-		<a href="http://jlxd.cydf.org.cn"><img class="cooporation" src="img/studio_pic.png" alt=""></a>
-		<a href="http://scd.sysu.edu.cn"><img class="cooporation" src="img/studio_logo.png" alt=""></a>
-		<a href="http://ss.sysu.edu.cn/InformationSystem/"><img class="cooporation" src="img/studio_college.png" alt=""></a>
+		<a href="http://www.cydf.org.cn"><img class="cooporation" src="__PUBLIC__/images/studio_partner.png" alt=""></a>
+		<a href="http://jlxd.cydf.org.cn"><img class="cooporation" src="__PUBLIC__/images/studio_pic.png" alt=""></a>
+		<a href="http://scd.sysu.edu.cn"><img class="cooporation" src="__PUBLIC__/images/studio_logo.png" alt=""></a>
+		<a href="http://ss.sysu.edu.cn/InformationSystem/"><img class="cooporation" src="__PUBLIC__/images/studio_college.png" alt=""></a>
 
 		<div class="studios">
 			<h1>维艾工作室</h1>
@@ -265,7 +395,4 @@
 			<p>欢迎联系：shaoke.zhang@gmail.com</p>
 
 		</div>
-	</div>
-</body>
-
-</html>
+	</div> -->
