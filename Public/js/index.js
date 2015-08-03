@@ -164,9 +164,10 @@ $(function(){
 	});
 	// 常见问题：回到顶部
 	$(document).scroll(function(e){
+		console.log('a');
 		if ($(document).scrollTop() == 0)
 			$('.toTop').css('display', 'none');
 		else
 			$('.toTop').css('display', 'block');
-	})
+	});
 });

@@ -26,4 +26,8 @@ class IndexController extends Controller {
   public function studio(){
 		$this->display();
   }
+  //益行纪录
+  public function record(){
+    $this->display();
+  }
 }
