@@ -1,0 +1,5 @@
+html, body {height: 100%; overflow: auto;}
+#contact {padding:10px}
+#contact h2 {margin: 8px 0}
+#contact a, #contact p {display: block; margin: 3px; text-indent: 20px}
+#twoCode{width: 200px; height: 200px; margin: 0 auto; background:url(../images/two_imension_code.png); background-size: 200px 200px}
