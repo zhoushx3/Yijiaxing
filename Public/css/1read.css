@@ -1,0 +1,292 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.exHead{
+	width: 100%;
+	height: auto;	
+	padding: 12px 0;
+	box-shadow:0 4px 4px #e9e9e9;
+	background-color: #f6f6f6;
+	position: fixed;
+	z-index: 10;
+}
+
+.header{
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header img:first-child {
+	width: 84px;
+	height: 100px;
+}
+
+.header img:first-child + img {
+	padding-left: 20px;
+	width: 328px;
+	height: 47px;
+}
+
+#nav{
+	width: 426px;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
+
+#nav a{
+	margin-right: 40px;
+	float: left;
+	color: #888686;
+	font-size: 14px;
+}
+
+#nav a.active {
+	color: #399ce1;
+}
+
+.all {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+#instruction {
+	color: #676767;
+	line-height: 29px;
+	font-size: 14px;
+	text-indent: 22px;
+	margin-bottom: 10px;
+}
+
+.content {
+	margin-top: 25px;
+}
+
+.headline {
+	width: 126px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-family: "SimSun";
+	font-size: 16px;
+	color: #fff;
+	background: #ec6a41;
+	margin-bottom: 20px;
+	box-shadow: 8px -8px 2px #389ce3;
+	float: left;
+
+}
+
+.left, .right {
+	width: 32px;
+	height: 32px;
+	border-radius: 32px;
+	float: right;
+	background-color: #9d9d9d;
+	position: relative;
+}
+
+.left.active, .right.active {
+	background: #b9e0f8;
+}
+
+.left div, .right div {
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border-bottom: 10px solid transparent;
+  border-top: 10px solid transparent;
+  position: relative;
+  top: 6px;
+}
+
+.left div {
+	border-right: 18px solid #F0F0F0;
+	left: 5px;
+}
+
+.right div {
+  border-left: 18px solid #F0F0F0;
+  left: 10px;
+}
+
+.page {
+	float: right;
+}
+
+.page li {
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	margin: 8px 10px;
+	border: 1px solid #aaa;
+	background: #fff;
+}
+
+.page li.active {
+	background: #b9e0f8;
+}
+
+.page li:first-child {
+	margin-left: 21px;
+}
+
+.page li:last-child {
+	margin-right: 21px;
+}
+
+.clear {
+	clear: both;
+}
+
+.outer {
+	width: 960px;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.inner {
+	width: 9999px;
+	position: relative;
+}
+
+.in1, .in2 {
+	float: left;
+	font-size: 0;
+}
+
+.img {
+	width: 219px;
+	height: 404px;
+	margin-right: 28px;
+	display: inline-block;
+}
+
+.img img {
+	width: 217px;
+	height: 328px;
+	border: 1px solid #e4e5e2;
+	box-shadow: 4px -4px 4px #e4e5e2;
+}
+
+.img img + p {
+	font-size: 14px;
+	color: #389ce3;
+	margin: 6px 0 2px 0;
+}
+
+.img img + p + p {
+	font-size: 12px;
+	color: #d9d9d9;
+	margin: 6px 0 2px 0;
+}
+
+
+
+/*尾部*/
+#bottom {
+	margin: 0 auto;
+	background: #399ce1;
+}
+
+#bottom > div#bottom_up {
+	width: 960px;
+	height: auto;
+	padding: 15px 0;
+	margin: 0 auto;
+	position: relative;
+}
+
+#bottom_up > div {
+	height: auto;
+	padding-left: 16%;
+}
+
+#bottom_up a {
+	color: #bce1fa;
+}
+
+#bottom_up > div > div {
+	font-size: 0;
+	display: inline-block;
+	width: 381px;
+	height: 147px;
+	vertical-align: top;
+}
+
+#bottom_up > div > div p {
+	color: #bce1fa;
+	font-size: 11px;
+	line-height: 43px;
+}
+
+#bottom_up > div > div p:first-child {
+	color: #fff;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+#bottom > #bottom_down {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	color: #979696;
+	background: #504f4f;
+	text-decoration: none;
+}
+
+#bottom_phone, #bottom_email, #bottom_address {
+	padding-left: 45px;
+}
+
+#bottom_phone {
+	background: url(../img/bottom_phone.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_email {
+	background: url(../img/bottom_email.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_address {
+	background: url(../img/bottom_address.jpg) no-repeat;
+	background-size: 32px;
+	background-position: left center;
+}
+
+#bottom_up #opactity {
+	height: 182px;
+	position: absolute;
+	top: 22px;
+	left: 0;
+	background: url(../img/two_imension_code.png) no-repeat;
+	background-size: 143px;
+	opacity: 0.85;
+	z-index: 20;
+}
