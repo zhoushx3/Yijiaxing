@@ -164,10 +164,21 @@ $(function(){
 	});
 	// 常见问题：回到顶部
 	$(document).scroll(function(e){
-		console.log('a');
 		if ($(document).scrollTop() == 0)
 			$('.toTop').css('display', 'none');
 		else
 			$('.toTop').css('display', 'block');
+	});
+	// 益行纪录
+	$('.container h3 span').click(function(){
+		var index = $(this).index();
+		var n = $(this).parent().parent().index('.container');
+		if (index%2==0) {
+			$('.container').eq(n).removeClass('show');
+			$('.container').eq(n == 0? 2 : n - 1).addClass('show');
+		} else {
+			$('.container').eq(n).removeClass('show');
+			$('.container').eq(n == 2? 0 : n + 1).addClass('show');
+		}
 	});
 });

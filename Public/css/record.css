@@ -1,7 +1,10 @@
 html, body {height: auto; overflow: auto;}
-.container {position: relative; min-height:100%;padding: 0 10px;}
-.container h3 {text-align: center; margin-top: 10px}
+.container {position: relative; display: none; overflow-y: hidden;}
+.container.show {width: 100%; padding: 0 10px; display: block;}
+.container h3 {text-align: center; margin-top: 10px; font-size: 1.3rem;}
+.container h3 span {font-size: 0.5rem; cursor: pointer; color: #385ED3;}
 .container p {text-indent: 20px; font-size: 1.3rem; margin: 5px;}
 .container p:first-line {font-size: 1.5rem; color: #385ED3;}
+#readMore a {display: block; font-size: 1.4rem; text-indent: 8px}
 .toTop {display: none; cursor: pointer}
 .toTop:after {content: '\f0aa'; font-size: 27px; position: fixed; bottom: 0; right: 10px}
